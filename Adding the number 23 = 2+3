@@ -1,0 +1,16 @@
+import java.util.*;
+public class Main {
+  
+  public static void main(String[] args) {
+  // Write your code here
+  System.out.println("Enter the first Integer: ");
+  Scanner in = new Scanner(System.in);
+  int a = in.nextInt();
+ 
+  int b = a/10;
+  int c = a%10;
+  
+  int d = b+c;
+  System.out.println("The Sum of the Number you Have  entered is "+ d);
+}
+}
